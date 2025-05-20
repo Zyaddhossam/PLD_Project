@@ -1,0 +1,13 @@
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\bin\Debug\Grammer.exe.config
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\bin\Debug\Grammer.exe
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\bin\Debug\Grammer.pdb
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\bin\Debug\CalithaLib.dll
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\bin\Debug\GoldParserEngine.dll
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.csproj.AssemblyReference.cache
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.Properties.Resources.resources
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.csproj.GenerateResource.cache
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.csproj.CoreCompileInputs.cache
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.csproj.Up2Date
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.exe
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.pdb
+D:\College\LEVEL 3 (2)\PLD\Tasks\Grammer\Grammer\obj\Debug\Grammer.Form1.resources
