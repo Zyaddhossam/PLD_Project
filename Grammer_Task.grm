@@ -1,0 +1,76 @@
+"Start Symbol" = <program> 
+
+!-------------------- Terminals
+id = {letter}({letter}|{digit})*
+digit = ['+'|'-']{digit}+('.'{digit}+)?('e'['+'|'-']{digit}+)?
+
+!-------------------- Rules
+
+<program> ::= salam 3likom <stmt-list> m3 Elsalama
+
+<stmt-list> ::= <gomla>
+             | <gomla> ';;' <stmt-list>
+
+<gomla> ::= <declare>
+         | <assign>
+         | <law_eh>
+         | <3ad>
+         | <tool>
+         | <garrb>
+         | <fa3l>
+         | <nadah>
+<id> ::= id
+<num> ::= digit
+!-------------------- Declaration
+<declare> ::= 3rf <id> mn no3 <type>
+
+<type> ::= rakam | kalam | sa7 | 8lt | 7aga
+
+!-------------------- Assignment
+<assign> ::= 3ml <id> da <expr>
+
+<expr> ::= <term> <expr_tail>
+
+<expr_tail> ::=  <term> zwd <expr_tail>
+              |  <term> n2s <expr_tail>
+             
+
+<term> ::= <factor> <term_tail>
+
+<term_tail> ::=  <factor> edrb <term_tail>
+              |  <factor>e2sm <term_tail>
+          
+
+<factor> ::= <id>
+           | <num>
+         
+
+!-------------------- If Statement
+<law_eh> ::= '?' '(' <shart> ')' '->' '{' <stmt-list> '}' 
+          | '?' '(' <shart> ')' '->' '{' <stmt-list> '}' bgd '{' <stmt-list> '}'
+
+<shart> ::= <expr> <op> <expr>
+
+<op> ::= akbr | as8r | mesh_zay | zay_ba3d
+
+!-------------------- For Loop 
+<3ad> ::= 3ad <id> mn <expr> ll <expr> '->' '{' <stmt-list> '}'
+
+!-------------------- While Loop 
+<tool> ::= tol_ma '(' <shart> ')' '->' '{' <stmt-list> '}'
+
+!-------------------- Do..While Loop 
+<garrb> ::= garrb '->' '{' <stmt-list> '}' w ba3d kda '(' <shart> ')'
+
+!-------------------- Methods
+<fa3l> ::= e3ml wzd <id> '(' <params> ')' '->' '{' <stmt-list> '}'
+
+<params> ::= <param>
+           | <param> ';;' <params>
+
+<param> ::= <id> mn no3 <type>
+
+<nadah> ::= nadah <id> '(' <args> ')'
+
+<args> ::= <expr>
+         | <expr> ';;' <args>
